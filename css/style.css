@@ -28,6 +28,7 @@ div {
 }
 
 .bronze, .gold, .silver {
+    position: relative;
     flex-direction: column;
     width: 30%;
     height: 440px;
@@ -52,7 +53,6 @@ p {
 
 .cup {
     display: block;
-    position: relative;
     margin-left: 18px;
     margin-bottom: 10px;
 }
